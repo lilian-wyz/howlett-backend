@@ -4,7 +4,7 @@ gunicorn
 pandas
 scikit-learn
 xgboost
-pmdarima==2.0.3
 flask-cors
-numpy==1.21.4
 scipy==1.7.3
+numpy>=1.24.0
+pmdarima>=2.0.3
