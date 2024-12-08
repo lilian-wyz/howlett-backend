@@ -6,7 +6,8 @@ from sklearn.metrics import r2_score, mean_squared_error
 from pmdarima import auto_arima
 
 # Load data
-contract_file_path = r"C:\Users\ASUS\Downloads\all_new_variables.xlsx"
+contract_file_path = "all_new_variables.xlsx"
+
 df = pd.read_excel(contract_file_path)
 
 # Filter data for 2014-2019
